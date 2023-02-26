@@ -270,6 +270,31 @@ img {
 }
 
 /*=============== BUTTON ===============*/
+.button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  background-color: var(--second-color);
+  padding: 1rem 1.5rem;
+  border-radius: 4rem;
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  box-shadow: 0 8px 32px hsla(39, 62%, 65%, 0.25);
+  transition: box-shadow 0.3s;
+}
+
+.button i {
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+}
+
+.button:hover {
+  box-shadow: 0 8px 48px hsla(39, 62%, 65%, 0.3);
+}
+
+.button:hover i {
+  transform: translateX(0.25rem);
+}
 
 /*=============== PRODUCTS ===============*/
 
